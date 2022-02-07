@@ -1,0 +1,172 @@
+/*** Start Header Section ***/
+header{
+    padding: 5px 0;
+}
+header .logo img {
+    width: 25%;
+}
+header nav ul li {
+    display: inline-block;
+    line-height: 55px;
+}
+header nav ul li {
+    display: inline-block;
+    line-height: 55px;
+}
+header nav ul li:first-child a{
+    color: black;
+}
+header nav ul li a {
+    display: inline-block;
+    padding: 0 18px;
+    text-decoration: none;
+    color: #7f7f7f;
+    font-weight: 500;
+}
+/*** End Header Section ***/
+/*** Start Slider Section ***/
+.slider{
+    background: #f9f9ff;
+    color: #343a40;
+}
+.slider-text{
+    padding-left: 112px;
+}
+.slider a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #8490ff;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.slider .h5 {
+    font-size: 1.25rem;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+.slider h2 {
+    font-size: 2rem;
+    margin-bottom: 35px;
+}
+.slider p {
+    width: 75%;
+    margin-bottom: 42px;
+}
+/*** End Slider Section ***/
+/*** Start About Section ***/
+.about img{
+    width: 100%;
+}
+.about .h5 {
+    margin-top: 90px;
+}
+.about a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #8490ff;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+}
+/*** End About Section ***/
+/*** Start Service-1 Section ***/
+.service-1{
+    background: #8490ff;
+}
+.service-1 h3{
+    font-weight: 700;
+    color: #fff;
+}
+.service-1 p{
+    margin: 0;
+    font-weight: 500;
+    color: #fff;
+}
+/*** End Service-1 Section ***/
+/*** Start Service-2 Section ***/
+.service-2{
+    background: #f9f9ff;
+}
+.service-2 p {
+    font-size: 20px;
+    font-weight: 500;
+}
+.service-box{
+    background: #fff;
+}
+.service-box p {
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    background: #f2f2fc;
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: 500;
+}
+.service-box h4 {
+    font-weight: 500;
+    font-size: 20px;
+}
+.service-box h6 {
+    font-size: 15px;
+    margin-top: 13px;
+}
+/*** End Service-2 Section ***/
+/*** Start Team Section ***/
+.team {
+    padding-top: 146px;
+    padding-bottom: 40px;
+}
+.team-content{
+    background: #fff;
+}
+.team-image img{
+    width: 90px;
+}
+.team-image {
+    top: -67px;
+    left: 28px;
+}
+.team-content h3 {
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: 500;
+}
+.team-content h6, p{
+    color: #45484c;
+}
+.team-btn{
+    padding: 10px 0;
+}
+.team-content .team-btn a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+    color: #000;
+    border-radius: 5px;
+    font-weight: 500;
+}
+/*** End Team Section ***/
+/*** Start Contact Section ***/
+.contact{
+    background: #f9f9ff;
+}
+.contact-form{
+    background: #fff;
+}
+.contact-con {
+    margin-top: 85px;
+    padding-left: 55px;
+}
+.contact-con p{
+    color: #000;
+}
+/*** End Contact Section ***/
+/*** Start Footer Section ***/
+footer{
+    background: black;
+    
+}
+/*** End Footer Section ***/
