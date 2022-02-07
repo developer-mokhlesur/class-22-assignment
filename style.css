@@ -1,28 +1,10 @@
 /*** Start Header Section ***/
-header{
-    padding: 5px 0;
+.navbar .navbar-brand img{
+    width: 90px;
 }
-header .logo img {
-    width: 25%;
-}
-header nav ul li {
-    display: inline-block;
-    line-height: 55px;
-}
-header nav ul li {
-    display: inline-block;
-    line-height: 55px;
-}
-header nav ul li:first-child a{
-    color: black;
-}
-header nav ul li a {
-    display: inline-block;
-    padding: 0 18px;
-    text-decoration: none;
-    color: #7f7f7f;
-    font-weight: 500;
-}
+/* .navbar{
+    z-index: 999;
+} */
 /*** End Header Section ***/
 /*** Start Slider Section ***/
 .slider{
@@ -42,8 +24,8 @@ header nav ul li a {
 }
 .slider .h5 {
     font-size: 1.25rem;
-    margin-top: 150px;
-    margin-bottom: 20px;
+    /* margin-top: 150px;
+    margin-bottom: 20px; */
 }
 .slider h2 {
     font-size: 2rem;
@@ -57,9 +39,6 @@ header nav ul li a {
 /*** Start About Section ***/
 .about img{
     width: 100%;
-}
-.about .h5 {
-    margin-top: 90px;
 }
 .about a{
     text-decoration: none;
@@ -157,7 +136,6 @@ header nav ul li a {
     background: #fff;
 }
 .contact-con {
-    margin-top: 85px;
     padding-left: 55px;
 }
 .contact-con p{

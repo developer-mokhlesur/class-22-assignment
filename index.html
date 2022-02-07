@@ -26,37 +26,61 @@
 </head>
 <body>
 <!-- Start Header Section -->
-<header>
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-       <div class="logo">
-        <a href="#">
-          <img src="./img/logo.jpg" alt="Academy Logo">
-        </a>
-       </div>
-      </div>
-      <div class="col-lg-8">
-        <nav>
-          <ul class="text-end m-0">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Blog <span><i class="fas fa-caret-down"></i></span> </a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Pages <span><i class="fas fa-caret-down"></i></span></a></li>
-            <li><a href="#">Contact Us</a></li>
+    <a class="navbar-brand" href="#">
+      <img src="./img/logo.jpg" alt="Company Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0 fw-normal px-4">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Blog
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
-        </nav>
-      </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Pages
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Facebook Page</a></li>
+            <li><a class="dropdown-item" href="#">YouTube Channel</a></li>
+            <li><a class="dropdown-item" href="#">Office Map</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+      </ul>
     </div>
   </div>
-</header>
+</nav>
 <!-- End Header Section -->
 <!-- Start Slider Section -->
-<section class="slider my-3">
+<section class="slider py-3">
   <div class="container-fluid">
-    <div class="row">
+    <div class="row align-items-center">
       <div class="col-lg-6">
        <div class="slider-text">
         <p class="h5">This is me</p>
@@ -75,7 +99,7 @@
 <!-- Start About Section -->
 <section class="about p-4">
   <div class="container">
-    <div class="row">
+    <div class="row align-items-center">
       <div class="col-lg-6">
         <img class="img-thumbnail" src="./img/about-img.jpg" alt="About Section Image">
       </div>
@@ -227,7 +251,7 @@
   <p class="text-center fw-bold">We nedd to know you opinion</p>
   <h2 class="text-center">Write to us and We will contact you</h2>
   <div class="container">
-    <div class="row">
+    <div class="row align-items-center">
       <div class="col-lg-6">
         <div class="contact-form w-100 shadow p-4 text-center rounded mt-4">
           <h4 class="my-4">Send us a Message</h4>
@@ -276,6 +300,7 @@
 <!-- Add your site or application content here -->
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
